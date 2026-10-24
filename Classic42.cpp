@@ -22,7 +22,16 @@ const string outputPath = "output.txt";
 
 static ifstream fin(inputPath);
 static ofstream fout(outputPath);
+void printFab42() {
+    int N; fin >> N;
+    while (N--) {
+        int R; fin >> R;
+        int rows = 2 * R;
+        int cols = 4 * R;
 
+        
+    }
+}
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -32,12 +41,5 @@ int main() {
         return 1;
     }
 
-    int N;
-    if (fin >> N) {
-        for (int i = 0; i < N; ++i) {
-
-        }
-    }
-
     return 0;
-}   
+}
