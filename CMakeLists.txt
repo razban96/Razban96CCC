@@ -8,3 +8,4 @@ add_executable(Classic42 Classic42.cpp)
 target_compile_definitions(Classic42 PRIVATE
         COMP_PROG_ROOT="${CMAKE_CURRENT_SOURCE_DIR}"
 )
+add_executable(Classic41 Classic41.cpp)
